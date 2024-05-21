@@ -1,0 +1,34 @@
+[
+  {
+    "key": 1,
+    "title": "Amazon Clone",
+    "imageSrc": "projecto/one.png",
+    "description": "This is a Amazon clone website designed using HTML & CSS",
+    "demo": "https://rishikeshkumar3102.github.io/Shopping-Website/",
+    "source": "https://github.com/rishikeshkumar3102/Shopping-Website"
+  },
+  {
+    "key": 2,
+    "title": "Football Club Website",
+    "imageSrc": "projecto/two.png",
+    "description": "This is a website of Manchester United FC designed using HTML,CSS & Javascript",
+    "demo": "https://rishikeshkumar3102.github.io/Football_Club_Website/",
+    "source": "https://github.com/rishikeshkumar3102/Football_Club_Website"
+  },
+  {
+    "key": 3,
+    "title": "Currency Converter ",
+    "imageSrc": "projecto/three.png",
+    "description": "The app is built using React, a JavaScript library for building user interfaces ",
+    "demo": "https://currency-converter-three-lyart.vercel.app/",
+    "source": "https://github.com/rishikeshkumar3102/Currency-Converter"
+  },
+  {
+    "key": 4,
+    "title": "Personal Portfolio",
+    "imageSrc": "projecto/four.png",
+    "description": "This is a project made with complete React js.",
+    "demo": "https://www.example.com",
+    "source": ""
+  }
+]
