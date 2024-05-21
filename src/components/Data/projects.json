@@ -17,18 +17,18 @@
   },
   {
     "key": 3,
-    "title": "Currency Converter ",
-    "imageSrc": "projecto/three.png",
-    "description": "The app is built using React, a JavaScript library for building user interfaces ",
+    "title": "Personal Portfolio ",
+    "imageSrc": "projecto/four.png",
+    "description": "This is a project made with complete React js. ",
     "demo": "https://currency-converter-three-lyart.vercel.app/",
     "source": "https://github.com/rishikeshkumar3102/Currency-Converter"
   },
   {
     "key": 4,
-    "title": "Personal Portfolio",
-    "imageSrc": "projecto/four.png",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": ""
+    "title": "Currency Converter",
+    "imageSrc": "projecto/three.png",
+    "description": "The app is built using React, a JavaScript library for building user interfaces",
+    "demo": "https://currency-converter-three-lyart.vercel.app/",
+    "source": "https://github.com/rishikeshkumar3102/Currency-Converter"
   }
 ]

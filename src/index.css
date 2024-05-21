@@ -241,7 +241,10 @@ a {
 /*Skill Section*/
 .skills {
   padding-top: 80px;
-  width: 900px;
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: auto;
+  text-align: center;
 }
 
 .skills .items {
@@ -249,25 +252,37 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* width: 800px; */
-  margin: auto;
-  /* background-color: yellow; */
+  gap: 20px; /* Add space between items */
 }
 
 .skills .items .item {
-  width: calc(33.33%);
+  width: calc(33.33% - 20px); /* Three items per row */
   background-color: black;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  
   box-shadow: var(--box-shadow);
 }
 
 .skills .items .item img {
   width: 70px;
 }
+
+/* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+  .skills .items .item {
+    width: calc(50% - 20px); /* Two items per row */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .skills .items .item {
+    width: calc(100% - 20px); /* One item per row */
+  }
+}
+
 
 
 /*project section*/
@@ -285,6 +300,8 @@ a {
 .img-container img {
   width: 100%;
   height: auto;
+  border: 2px solid yellow;
+  border-radius: 25 px;
 }
 
 .project-my-3 {
@@ -316,11 +333,11 @@ a {
 .contact-container {
   text-align: center;
   padding: 20px;
+  padding-top: 80px; /* Add space at the top */
 }
 
 .contact-form-box,
 .contact-icons-box {
-  border: 2px solid #ccc;
   border: 1px solid yellow;
   box-shadow: 5px 5px 10px 10px rgba(156, 10, 175, 0.5);
   padding: 20px;
@@ -392,4 +409,36 @@ a {
 
 .contact-form button:hover {
   background-color: #0056b3;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .contact-form-box,
+  .contact-icons-box {
+    width: 90%; /* Ensure the boxes take up most of the screen width */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%; /* Make inputs and textarea fill the width of the container */
+  }
+
+  .contact-icons {
+    flex-direction: column; /* Stack icons vertically on smaller screens */
+  }
+
+  .contact-icon {
+    justify-content: center; /* Center icons */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-box,
+  .contact-icons-box {
+    width: 95%; /* Slightly more padding for very small screens */
+  }
+
+  .contact-form button {
+    width: 100%; /* Make the button fill the container width */
+  }
 }
