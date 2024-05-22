@@ -12,7 +12,7 @@ const Project = () => {
               className="card bg-black text-light"
               style={{
                 width: "100%",
-                border: "1px solid yellow",
+    
                 boxShadow: "5px 5px 10px 10px rgba(156, 10, 175, 0.5)",
               }}
               data-aos="flip-left"

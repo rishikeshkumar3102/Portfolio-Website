@@ -32,29 +32,50 @@ a {
   border-bottom: 3px solid yellow;
 }
 
+/* Hide the hamburger icon by default */
+.right .hamburger-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
-  .nav_bar {
-    /* Keep the default styles */
-  }
-
   .nav_bar .nav_items {
-    /* Keep the default styles */
-    padding: 10px 16px; /* Adjust padding for smaller screens */
-    text-align: center; /* Align text to the center */
+    display: none; /* Hide the nav items on smaller screens */
   }
 
-  .nav_bar .nav_items:hover {
-    /* Keep the default styles */
+  .right .hamburger-icon {
+    display: block; /* Show the hamburger icon on smaller screens */
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar height */
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .mobile-menu .nav_items {
+    display: block; /* Show the nav items in mobile menu */
+    padding: 10px 16px; /* Adjust padding for smaller screens */
+    text-align: left; /* Align text to the center */
+    margin: 1px 0; /* Add margin for space between items */
+  }
+
+  .mobile-menu .nav_items:hover {
+    border-bottom: none; /* Optional: remove hover effect in mobile menu */
   }
 }
 
-
-
-
-
 /*Home Section*/
+
 .home {
+  margin-top: 40px;
   height: 80vh;
   display: flex;
   justify-content: space-between;
@@ -145,9 +166,6 @@ a {
   }
 }
 
-
-
-
 /*About Section*/
 
 .box {
@@ -234,10 +252,6 @@ a {
   }
 }
 
-
-
-
-
 /*Skill Section*/
 .skills {
   padding-top: 80px;
@@ -283,15 +297,13 @@ a {
   }
 }
 
-
-
 /*project section*/
 /* Responsive Styles */
 @media (max-width: 576px) {
   .card {
     margin-bottom: 20px;
   }
-  
+
   .btn {
     margin: 5px 0;
   }
@@ -300,7 +312,8 @@ a {
 .img-container img {
   width: 100%;
   height: auto;
-  border: 2px solid yellow;
+  box-shadow: 5px 5px 10px 10px rgba(156, 10, 175, 0.5);
+
   border-radius: 25 px;
 }
 
@@ -315,7 +328,7 @@ a {
 .card {
   background-color: black;
   color: white;
-  border: 1px solid yellow;
+
   box-shadow: 5px 5px 10px 10px rgba(156, 10, 175, 0.5);
 }
 
@@ -324,9 +337,6 @@ a {
   flex-direction: column;
   align-items: center;
 }
-
-
-
 
 /*contact*/
 
@@ -338,7 +348,6 @@ a {
 
 .contact-form-box,
 .contact-icons-box {
-  border: 1px solid yellow;
   box-shadow: 5px 5px 10px 10px rgba(156, 10, 175, 0.5);
   padding: 20px;
   display: inline-block;
