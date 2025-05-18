@@ -1,34 +1,42 @@
 [
   {
     "key": 1,
-    "title": "Amazon Clone",
-    "imageSrc": "projecto/one.png",
-    "description": "This is a Amazon clone website designed using HTML & CSS",
-    "demo": "https://rishikeshkumar3102.github.io/Shopping-Website/",
-    "source": "https://github.com/rishikeshkumar3102/Shopping-Website"
+    "title": "Misttry-Hub",
+    "imageSrc": "projecto/six.png",
+    "description": "Mistry Hub is a platform that connects clients with skilled workers offering real-time notifications and seamless experience.",
+    "demo": "https://github.com/rishikeshkumar3102/MistryHub",
+    "source": "https://github.com/rishikeshkumar3102/MistryHub"
   },
   {
     "key": 2,
-    "title": "Football Club Website",
-    "imageSrc": "projecto/two.png",
-    "description": "This is a website of Manchester United FC designed using HTML,CSS & Javascript",
-    "demo": "https://rishikeshkumar3102.github.io/Football_Club_Website/",
-    "source": "https://github.com/rishikeshkumar3102/Football_Club_Website"
+    "title": "AI Based Road Inspection System",
+    "imageSrc": "projecto/ice.png",
+    "description": "It is built using the YOLOv8 architecture for object detection ",
+    "demo": "https://github.com/RishitKumar086/AI-Based-Road-Inspection-System",
+    "source": "https://github.com/RishitKumar086/AI-Based-Road-Inspection-System"
   },
   {
     "key": 3,
+    "title": "Imaginify",
+    "imageSrc": "projecto/five.png",
+    "description": " Imaginify is a user-friendly AI image SaaS platform offering advanced image processing and enhancement features.",
+    "demo": "https://imaginify-nine-mu.vercel.app/",
+    "source": "https://github.com/rishikeshkumar3102/Imaginify"
+  },
+  {
+    "key": 4,
     "title": "Personal Portfolio ",
     "imageSrc": "projecto/four.png",
-    "description": "This is a project made with complete React js. ",
+    "description": "A personal portfolio website to professionally showcase my projects, skills, and resume.. ",
     "demo": "https://portfolio-website-heoy.vercel.app/",
     "source": "https://github.com/rishikeshkumar3102/Portfolio-Website"
   },
   {
-    "key": 4,
-    "title": "Currency Converter",
-    "imageSrc": "projecto/three.png",
-    "description": "The app is built using React, a JavaScript library for building user interfaces",
-    "demo": "https://currency-converter-three-lyart.vercel.app/",
-    "source": "https://github.com/rishikeshkumar3102/Currency-Converter"
+    "key": 5,
+    "title": "Password Manager",
+    "imageSrc": "projecto/ten.png",
+    "description": "🔐 A password manager application designed to securely manage passwords.",
+    "demo": "https://passop-frontend-ftv4.onrender.com/",
+    "source": "https://github.com/rishikeshkumar3102/PassOP"
   }
 ]

@@ -10,10 +10,8 @@ const About = () => {
             <div className="cube" data-aos="fade-left"
       data-aos-duration="1000">
               <h3>About me</h3>
-              <p>Hey there! I'm Rishikesh Kumar, an engineering student with a passion
-                 for coding, web development, and exploring new technologies.
-                 From building efficient algorithms to creating responsive websites, 
-                 I love the challenge of solving problems and bringing ideas to life through code.
+              <p>Hey there! I'm Rishikesh Kumar, a B.Tech graduate in Computer Science and Engineering, currently working at Siemens. 
+                I’m passionate about coding, web development, and leveraging technology to solve real-world problems. I’m always eager to learn, explore new tools, and grow as a developer in this ever-evolving tech landscape.
                  </p>
             </div>
           </li>
@@ -21,11 +19,8 @@ const About = () => {
             <div className="cube" data-aos="fade-left"
       data-aos-duration="1000">
               <h3>Education</h3>
-              <p>I'm currently pursuing my B.E. degree in 
-                Computer Science from Siddaganga Institute
-                 of Technology,Tumkur.
-                 Before SIT, I completed my matriculation and 
-                 intermediate education at Creane Memorial High School,Gaya.</p>
+              <p>I have completed my B.Tech in Computer Science from Siddaganga Institute of Technology, Tumkur. Before that, 
+                I pursued my matriculation and intermediate education at Creane Memorial High School, Gaya.</p>
             </div>
           </li>
           <li className="Item">

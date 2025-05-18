@@ -10,8 +10,9 @@ const Home = () => {
     const options = {
       strings: [
         "Welcome to my profile",
-        "My Name is Rishikesh Kumar",
-        "Pursuing B.E in Computer Science",
+        "Rishikesh Kumar",
+        "B.E in Computer Science",
+        "Currently working at Siemens",
         "Full stack developer",
         "Passionate programmer with a fervent dedication to coding.",
         "Footballer",
